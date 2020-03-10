@@ -1,0 +1,12 @@
+[package]
+name = "grep_bench"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+grep = "0.2.4"
+
+# used to test master - use:
+# $ git clone https://github.com/BurntSushi/ripgrep ripgrep
+#[patch.crates-io]
+#grep = { path = "ripgrep/crates/grep" }
